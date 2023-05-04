@@ -22,15 +22,15 @@ function CreatePost(){
         <form onSubmit={handleSubmit}>
             <div className="form-field">
                 <label>title</label>
-                <input{...title}/>
+                <input {...title}/>
             </div>
             <div className="form-field">
                 <label>sub title</label>
-                <input{...subTitle}/>
+                <input {...subTitle}/>
             </div>
             <div className="form-field">
                 <label>content</label>
-                <input{...content}/>
+                <textarea {...content}/>
             </div>
             <button className="create-post-btn">Create Post</button>
         </form>
